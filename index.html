@@ -66,12 +66,34 @@
       padding: 1.5rem 2rem;
       font-size: 0.9rem;
     }
+    }
+    .tryhackme-container{
+      display: flex;
+      justify-content: end;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+    iframe{
+      overflow: hidden;
+      border: none;
+      max-width: 100%;
+    
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Abhishek Pujari</h1>
     <p>Cybersecurity Learner | Ethical Hacker | TryHackMe Enthusiast</p>
+    <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=942453" style='border:none;'></iframe>
+    <div class="tryhackme-container">
+      <iframe 
+        src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=942453" 
+        width="400" 
+        style='border:none; overflow: hidden;' 
+        scrolling="no">
+      </iframe>
+    </div>
   </header>
 
   <main>
